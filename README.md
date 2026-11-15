@@ -21,6 +21,8 @@
 
 <a href="https://www.aliexpress.com/item/1005004981377952.html"><img src="tp4056-lx-lbc3.png" width="250" alt="TP4056 LX-LBC3 Charger"></a>
 
+1x 18650 cell, 3500 mAh or similar — the battery the LX-LBC3 charges and boosts (fits the flexbatter18650Px1 holder). (No specific listing — any good-quality 18650 of ~3500 mAh works.)
+
 2x [A3-28RPM Micro Mini N20 Gear Motor DC 5V Slow Speed Full Metal Gearbox Reducer Electric Motor DIY Toy](https://www.aliexpress.com/item/1005008129258889.html)
 
 <a href="https://www.aliexpress.com/item/1005008129258889.html"><img src="https://ae-pic-a1.aliexpress-media.com/kf/S2b7428cf18dd4f658ac75ef97d2bea0d0.jpg" width="250" alt="N20 Gear Motor"></a>
@@ -46,3 +48,8 @@ Any white 5 V cuttable LED strip — for the status lights in front and back. Ju
 - **2x 100 nF ceramic** — the two small beige disc capacitors; soldered across the two terminals of each motor (suppresses motor noise).
 - **1x 100 µF 16 V** — the small electrolytic cylinder (polarity stripe on the side): `+` on Vin, `−` on the GND pin next to it.
 - **1x 1000 µF 16 V** — the larger electrolytic cylinder: `+` on DRV VCC, `−` on DRV GND.
+
+## 3D models used
+
+- [Offroad Tire 110](https://www.thingiverse.com/thing:2119923) by Martimo — the wheels
+- [flexbatter18650Px1](https://www.thingiverse.com/thing:5605151) — the 18650 battery holder
