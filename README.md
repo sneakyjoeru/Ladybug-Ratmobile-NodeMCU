@@ -1,4 +1,4 @@
-# ratmobile
+# Ladybug Ratmobile V2
 
 ![Ratmobile — soldering schema](ratmobile-final.svg)
 
