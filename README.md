@@ -80,8 +80,7 @@ All printed parts fit each other freely — no glue and no fasteners except wher
 ## 3D models used
 
 - [Offroad Tire 110](https://www.thingiverse.com/thing:2119923) by Martimo — the wheels
-- [Flexing battery holders with integrated spring](https://www.thingiverse.com/thing:456900) by enif — the 18650 battery holder (we use the `flexbatter18650Px1` remix)
-
+- [Flexing battery holders with integrated spring](https://www.thingiverse.com/thing:456900) by enif — the 18650 battery holder
 ## License
 
 Free to build, modify and use for personal, non-commercial purposes. If you repost the design, the STLs, the code or the photos — credit the author and link back to this repository. **Not for sale.**
