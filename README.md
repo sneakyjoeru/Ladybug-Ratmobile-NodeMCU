@@ -19,7 +19,7 @@
 
 1x **important** — [USB-C 1.2A 2 In 1 Type-C USB TP4056 1A Lithium Battery Charging Protection Board Module Polymer Battery With Temperature Protection](https://www.aliexpress.com/item/1005004981377952.html) — LX-LBC3 board with 5V booster (the booster is an R2R). This is the power board: it boosts the 3.7 V battery up to 5 V **and** charges the battery at the same time.
 
-<a href="https://www.aliexpress.com/item/1005004981377952.html"><img src="https://ae-pic-a1.aliexpress-media.com/kf/S8ae80fe6e3624c6bb2951ead307f4657y.jpg" width="250" alt="TP4056 LX-LBC3 Charger"></a>
+<a href="https://www.aliexpress.com/item/1005004981377952.html"><img src="https://raw.githubusercontent.com/sneakyjoeru/Ladybug-Ratmobile-NodeMCU/images/tp4056-lx-lbc3.png" width="250" alt="TP4056 LX-LBC3 Charger"></a>
 
 1x 18650 cell, 3500 mAh or similar — the battery the LX-LBC3 charges and boosts (fits the flexbatter18650Px1 holder). (No specific listing — any good-quality 18650 of ~3500 mAh works.)
 
