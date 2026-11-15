@@ -39,7 +39,7 @@
 
 Any white 5 V cuttable LED strip — for the status lights in front and back. Just cut it, solder to wires, glue to the case. (No specific listing — any 5 V cuttable white strip works.)
 
-M3 screws (8 mm length) + M3 heat inserts — needed for the keyboard fixture: heat inserts go into the case, screws (8 mm M3) attach the keyboard through them.
+2x M3 screws (8 mm length) + 2x M3 heat inserts — needed for the keyboard fixture: heat inserts go into the case, screws (8 mm M3) attach the keyboard through them.
 
 ### Capacitors (from the schema — legs only, no wires)
 
