@@ -1,0 +1,380 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 2000 2200" width="2000" height="2200" font-family="Inter, Helvetica, Arial, DejaVu Sans, sans-serif" xmlns:c2pa="http://c2pa.org/manifest">
+<defs><pattern id="g" width="20" height="20" patternUnits="userSpaceOnUse"><path d="M20 0H0V20" fill="none" stroke="#dfe3ea" stroke-width="1"/></pattern></defs>
+<rect width="2000" height="2200" fill="#eef0f4"/><rect width="2000" height="2200" fill="url(#g)"/>
+<text x="45" y="58" font-size="34" fill="#1f2a44" text-anchor="start" font-weight="800" letter-spacing="2">RATMOBILE — SOLDERING SCHEMA, NO PCB</text>
+<text x="45" y="90" font-size="15" fill="#6b7689" text-anchor="start" font-weight="400">Every joint sits on a pin, a pad or a capacitor leg: no splices in mid-wire · LX-LBC3 charger with booster (sold as 'TP4056 Type-C 1.2A 2 in 1') · top view, motors at the front</text>
+<line x1="45" y1="106" x2="1955" y2="106" stroke="#1f2a44" stroke-width="2.5"/>
+<line x1="45" y1="130" x2="79" y2="130" stroke="#c62828" stroke-width="5" stroke-linecap="round"/>
+<text x="87" y="135" font-size="14" fill="#1f2a44" text-anchor="start" font-weight="400">+5V</text>
+<line x1="141.0" y1="130" x2="175.0" y2="130" stroke="#3d4a5c" stroke-width="5" stroke-linecap="round"/>
+<text x="183.0" y="135" font-size="14" fill="#1f2a44" text-anchor="start" font-weight="400">GND</text>
+<line x1="237.0" y1="130" x2="271.0" y2="130" stroke="#d9730d" stroke-width="5" stroke-linecap="round"/>
+<text x="279.0" y="135" font-size="14" fill="#1f2a44" text-anchor="start" font-weight="400">cell +</text>
+<line x1="357.0" y1="130" x2="391.0" y2="130" stroke="#111111" stroke-width="5" stroke-linecap="round"/>
+<text x="399.0" y="135" font-size="14" fill="#1f2a44" text-anchor="start" font-weight="400">cell −</text>
+<line x1="477.0" y1="130" x2="511.0" y2="130" stroke="#1f6b4f" stroke-width="5" stroke-linecap="round"/>
+<text x="519.0" y="135" font-size="14" fill="#1f2a44" text-anchor="start" font-weight="400">motor</text>
+<line x1="589.0" y1="130" x2="623.0" y2="130" stroke="#2f5fa8" stroke-width="5" stroke-linecap="round"/>
+<text x="631.0" y="135" font-size="14" fill="#1f2a44" text-anchor="start" font-weight="400">IN1</text>
+<line x1="685.0" y1="130" x2="719.0" y2="130" stroke="#2a9dc9" stroke-width="5" stroke-linecap="round"/>
+<text x="727.0" y="135" font-size="14" fill="#1f2a44" text-anchor="start" font-weight="400">IN2</text>
+<line x1="781.0" y1="130" x2="815.0" y2="130" stroke="#7b3fa0" stroke-width="5" stroke-linecap="round"/>
+<text x="823.0" y="135" font-size="14" fill="#1f2a44" text-anchor="start" font-weight="400">IN3</text>
+<line x1="877.0" y1="130" x2="911.0" y2="130" stroke="#c2378a" stroke-width="5" stroke-linecap="round"/>
+<text x="919.0" y="135" font-size="14" fill="#1f2a44" text-anchor="start" font-weight="400">IN4</text>
+<line x1="973.0" y1="130" x2="1007.0" y2="130" stroke="#8a5a00" stroke-width="5" stroke-linecap="round"/>
+<text x="1015.0" y="135" font-size="14" fill="#1f2a44" text-anchor="start" font-weight="400">EEP (sleep)</text>
+<line x1="1133.0" y1="130" x2="1167.0" y2="130" stroke="#0f7b8a" stroke-width="5" stroke-linecap="round"/>
+<text x="1175.0" y="135" font-size="14" fill="#1f2a44" text-anchor="start" font-weight="400">to the lid</text>
+<text x="1955" y="135" font-size="14" fill="#6b7689" text-anchor="end" font-weight="400">● = solder joint · plain crossing = NO connection · ①–⑨ = power wires, see list</text>
+<rect x="290" y="1290" width="280" height="110" rx="3" fill="#fff" stroke="#1f2a44" stroke-width="3.5"/>
+<rect x="266" y="1320" width="58" height="50" rx="6" fill="#c9ced6" stroke="#1f2a44" stroke-width="2.5"/>
+<rect x="272" y="1337" width="30" height="16" rx="8" fill="#eef0f4" stroke="#1f2a44" stroke-width="1.5"/>
+<path d="M956,330 L956,245 L420,245" fill="none" stroke="#1f6b4f" stroke-width="3.4" stroke-linejoin="round" stroke-linecap="round"/>
+<path d="M992,330 L992,195 L420,195" fill="none" stroke="#1f6b4f" stroke-width="3.4" stroke-linejoin="round" stroke-linecap="round"/>
+<path d="M1028,330 L1028,225 L1330,225" fill="none" stroke="#1f6b4f" stroke-width="3.4" stroke-linejoin="round" stroke-linecap="round"/>
+<path d="M1064,330 L1064,275 L1330,275" fill="none" stroke="#1f6b4f" stroke-width="3.4" stroke-linejoin="round" stroke-linecap="round"/>
+<path d="M480,195 L480,215.0" fill="none" stroke="#1f6b4f" stroke-width="2.5" stroke-linejoin="round" stroke-linecap="round"/>
+<path d="M480,225.0 L480,245" fill="none" stroke="#1f6b4f" stroke-width="2.5" stroke-linejoin="round" stroke-linecap="round"/>
+<path d="M466,215.0 L494,215.0" fill="none" stroke="#1f6b4f" stroke-width="3" stroke-linejoin="round" stroke-linecap="round"/>
+<path d="M466,225.0 L494,225.0" fill="none" stroke="#1f6b4f" stroke-width="3" stroke-linejoin="round" stroke-linecap="round"/>
+<circle cx="480" cy="195" r="6" fill="#1f6b4f"/>
+<circle cx="480" cy="245" r="6" fill="#1f6b4f"/>
+<path d="M1270,225 L1270,245.0" fill="none" stroke="#1f6b4f" stroke-width="2.5" stroke-linejoin="round" stroke-linecap="round"/>
+<path d="M1270,255.0 L1270,275" fill="none" stroke="#1f6b4f" stroke-width="2.5" stroke-linejoin="round" stroke-linecap="round"/>
+<path d="M1256,245.0 L1284,245.0" fill="none" stroke="#1f6b4f" stroke-width="3" stroke-linejoin="round" stroke-linecap="round"/>
+<path d="M1256,255.0 L1284,255.0" fill="none" stroke="#1f6b4f" stroke-width="3" stroke-linejoin="round" stroke-linecap="round"/>
+<circle cx="1270" cy="225" r="6" fill="#1f6b4f"/>
+<circle cx="1270" cy="275" r="6" fill="#1f6b4f"/>
+<text x="480" y="290" font-size="13" fill="#6b7689" text-anchor="middle" font-weight="400">100 nF on the motor terminals</text>
+<text x="1270" y="320" font-size="13" fill="#6b7689" text-anchor="middle" font-weight="400">100 nF on the motor terminals</text>
+<path d="M346,850 L346,722 L812,722 L812,302 L920,302 L920,330" fill="none" stroke="#8a5a00" stroke-width="3.4" stroke-linejoin="round" stroke-linecap="round"/>
+<text x="800" y="420" font-size="13" fill="#8a5a00" text-anchor="start" font-weight="700" transform="rotate(-90 800 420)">IO15 → EEP</text>
+<path d="M434,850 L434,736 L826,736 L826,530 L1100,530 L1100,470" fill="none" stroke="#2f5fa8" stroke-width="3.4" stroke-linejoin="round" stroke-linecap="round"/>
+<path d="M478,850 L478,750 L840,750 L840,550 L1064,550 L1064,470" fill="none" stroke="#2a9dc9" stroke-width="3.4" stroke-linejoin="round" stroke-linecap="round"/>
+<path d="M698,850 L698,820 L854,820 L854,570 L956,570 L956,470" fill="none" stroke="#7b3fa0" stroke-width="3.4" stroke-linejoin="round" stroke-linecap="round"/>
+<path d="M742,850 L742,834 L868,834 L868,590 L920,590 L920,470" fill="none" stroke="#c2378a" stroke-width="3.4" stroke-linejoin="round" stroke-linecap="round"/>
+<path d="M992,470 L992,1270 L350,1270 L350,1305" fill="none" stroke="#3d4a5c" stroke-width="4" stroke-linejoin="round" stroke-linecap="round"/>
+<path d="M992,655 L895,655 L895,1090 L214,1090 L214,1050" fill="none" stroke="#3d4a5c" stroke-width="4" stroke-linejoin="round" stroke-linecap="round"/>
+<circle cx="992" cy="655" r="7" fill="#3d4a5c"/>
+<path d="M1028,470 L1028,690" fill="none" stroke="#c62828" stroke-width="4" stroke-linejoin="round" stroke-linecap="round"/>
+<path d="M1028,655 L1440,655 L1440,1505 L1400,1505" fill="none" stroke="#c62828" stroke-width="4" stroke-linejoin="round" stroke-linecap="round"/>
+<circle cx="1028" cy="655" r="7" fill="#c62828"/>
+<path d="M1028,690 L915,690 L915,1110 L170,1110 L170,1050" fill="none" stroke="#c62828" stroke-width="4" stroke-linejoin="round" stroke-linecap="round"/>
+<circle cx="1028" cy="690" r="7" fill="#c62828"/>
+<path d="M992,625 L1003,625" fill="none" stroke="#3d4a5c" stroke-width="3.4" stroke-linejoin="round" stroke-linecap="round"/>
+<path d="M1016,625 L1028,625" fill="none" stroke="#c62828" stroke-width="3.4" stroke-linejoin="round" stroke-linecap="round"/>
+<path d="M1000,611 Q1010,625 1000,639" fill="none" stroke="#1f2a44" stroke-width="3.5" stroke-linecap="round"/>
+<line x1="1016" y1="611" x2="1016" y2="639" stroke="#1f2a44" stroke-width="3.5" stroke-linecap="round"/>
+<circle cx="992" cy="625" r="6" fill="#3d4a5c"/>
+<circle cx="1028" cy="625" r="6" fill="#c62828"/>
+<text x="1046" y="622" font-size="15" fill="#1f2a44" text-anchor="start" font-weight="800">1000 µF 16V</text>
+<text x="1046" y="640" font-size="12" fill="#6b7689" text-anchor="start" font-weight="400">its legs go straight onto the DRV's VCC (+) and GND (−, stripe) pins</text>
+<path d="M170,1070 L185,1070" fill="none" stroke="#c62828" stroke-width="3.4" stroke-linejoin="round" stroke-linecap="round"/>
+<path d="M199,1070 L214,1070" fill="none" stroke="#3d4a5c" stroke-width="3.4" stroke-linejoin="round" stroke-linecap="round"/>
+<line x1="186" y1="1058" x2="186" y2="1082" stroke="#1f2a44" stroke-width="3.5" stroke-linecap="round"/>
+<path d="M202,1058 Q192,1070 202,1082" fill="none" stroke="#1f2a44" stroke-width="3.5" stroke-linecap="round"/>
+<circle cx="170" cy="1070" r="6" fill="#c62828"/>
+<circle cx="214" cy="1070" r="6" fill="#3d4a5c"/>
+<text x="156" y="1066" font-size="14" fill="#1f2a44" text-anchor="end" font-weight="800">100 µF 16V</text>
+<text x="156" y="1083" font-size="11" fill="#6b7689" text-anchor="end" font-weight="400">legs on the Vin (+)</text>
+<text x="156" y="1097" font-size="11" fill="#6b7689" text-anchor="end" font-weight="400">and GND (−) pins</text>
+<path d="M350,1385 L350,1450 L180,1450 L180,1760 L1300,1760 L1300,1570" fill="none" stroke="#c62828" stroke-width="4" stroke-linejoin="round" stroke-linecap="round"/>
+<path d="M1340,1055 L1420,1055 L1420,1505" fill="none" stroke="#c62828" stroke-width="4" stroke-linejoin="round" stroke-linecap="round"/>
+<circle cx="1420" cy="1505" r="7" fill="#c62828"/>
+<path d="M1090,1055 L1060,1055 L1060,720 L992,720" fill="none" stroke="#3d4a5c" stroke-width="4" stroke-linejoin="round" stroke-linecap="round"/>
+<circle cx="992" cy="720" r="7" fill="#3d4a5c"/>
+<path d="M550,1315 L640,1315 L640,1540 L960,1540 L960,1650 L920,1650" fill="none" stroke="#d9730d" stroke-width="4" stroke-linejoin="round" stroke-linecap="round"/>
+<path d="M550,1375 L600,1375 L600,1480 L205,1480 L205,1650 L250,1650" fill="none" stroke="#111111" stroke-width="4" stroke-linejoin="round" stroke-linecap="round"/>
+<circle cx="800" cy="1540" r="12" fill="#fff" stroke="#1f2a44" stroke-width="2"/>
+<text x="800" y="1545" font-size="13" fill="#1f2a44" text-anchor="middle" font-weight="800">1</text>
+<circle cx="400" cy="1480" r="12" fill="#fff" stroke="#1f2a44" stroke-width="2"/>
+<text x="400" y="1485" font-size="13" fill="#1f2a44" text-anchor="middle" font-weight="800">2</text>
+<circle cx="760" cy="1760" r="12" fill="#fff" stroke="#1f2a44" stroke-width="2"/>
+<text x="760" y="1765" font-size="13" fill="#1f2a44" text-anchor="middle" font-weight="800">3</text>
+<circle cx="1250" cy="655" r="12" fill="#fff" stroke="#1f2a44" stroke-width="2"/>
+<text x="1250" y="660" font-size="13" fill="#1f2a44" text-anchor="middle" font-weight="800">4</text>
+<circle cx="915" cy="930" r="12" fill="#fff" stroke="#1f2a44" stroke-width="2"/>
+<text x="915" y="935" font-size="13" fill="#1f2a44" text-anchor="middle" font-weight="800">5</text>
+<circle cx="992" cy="1000" r="12" fill="#fff" stroke="#1f2a44" stroke-width="2"/>
+<text x="992" y="1005" font-size="13" fill="#1f2a44" text-anchor="middle" font-weight="800">6</text>
+<circle cx="895" cy="800" r="12" fill="#fff" stroke="#1f2a44" stroke-width="2"/>
+<text x="895" y="805" font-size="13" fill="#1f2a44" text-anchor="middle" font-weight="800">7</text>
+<circle cx="1420" cy="1280" r="12" fill="#fff" stroke="#1f2a44" stroke-width="2"/>
+<text x="1420" y="1285" font-size="13" fill="#1f2a44" text-anchor="middle" font-weight="800">8</text>
+<circle cx="1060" cy="880" r="12" fill="#fff" stroke="#1f2a44" stroke-width="2"/>
+<text x="1060" y="885" font-size="13" fill="#1f2a44" text-anchor="middle" font-weight="800">9</text>
+<rect x="160" y="170" width="260" height="100" rx="3" fill="#fff" stroke="#1f2a44" stroke-width="3.5"/>
+<text x="290" y="214" font-size="17" fill="#1f2a44" text-anchor="middle" font-weight="700">MOTOR LEFT</text>
+<text x="290" y="238" font-size="13" fill="#6b7689" text-anchor="middle" font-weight="400">A3-28RPM DC-5V</text>
+<text x="404" y="200" font-size="18" fill="#1f6b4f" text-anchor="middle" font-weight="700">−</text>
+<text x="404" y="251" font-size="18" fill="#1f6b4f" text-anchor="middle" font-weight="700">+</text>
+<rect x="1330" y="200" width="260" height="100" rx="3" fill="#fff" stroke="#1f2a44" stroke-width="3.5"/>
+<text x="1460" y="244" font-size="17" fill="#1f2a44" text-anchor="middle" font-weight="700">MOTOR RIGHT</text>
+<text x="1460" y="268" font-size="13" fill="#6b7689" text-anchor="middle" font-weight="400">A3-28RPM DC-5V</text>
+<text x="1346" y="230" font-size="18" fill="#1f6b4f" text-anchor="middle" font-weight="700">−</text>
+<text x="1346" y="281" font-size="18" fill="#1f6b4f" text-anchor="middle" font-weight="700">+</text>
+<text x="1610" y="236" font-size="13" fill="#8a5a00" text-anchor="start" font-weight="700">leads reversed vs. left motor</text>
+<text x="1610" y="256" font-size="13" fill="#8a5a00" text-anchor="start" font-weight="400">(mirror-mounted)</text>
+<rect x="900" y="330" width="220" height="140" rx="3" fill="#fff" stroke="#1f2a44" stroke-width="3.5"/>
+<rect x="914" y="324" width="12" height="12" fill="#1f2a44"/>
+<rect x="914" y="464" width="12" height="12" fill="#c2378a"/>
+<text x="920" y="354" font-size="10" fill="#8a5a00" text-anchor="middle" font-weight="700">EEP</text>
+<text x="920" y="456" font-size="10" fill="#c2378a" text-anchor="middle" font-weight="700">IN4</text>
+<rect x="950" y="324" width="12" height="12" fill="#1f2a44"/>
+<rect x="950" y="464" width="12" height="12" fill="#7b3fa0"/>
+<text x="956" y="354" font-size="10" fill="#1f6b4f" text-anchor="middle" font-weight="700">OUT1</text>
+<text x="956" y="456" font-size="10" fill="#7b3fa0" text-anchor="middle" font-weight="700">IN3</text>
+<rect x="986" y="324" width="12" height="12" fill="#1f2a44"/>
+<rect x="986" y="464" width="12" height="12" fill="#3d4a5c"/>
+<text x="992" y="354" font-size="10" fill="#1f6b4f" text-anchor="middle" font-weight="700">OUT2</text>
+<text x="992" y="456" font-size="10" fill="#3d4a5c" text-anchor="middle" font-weight="700">GND</text>
+<rect x="1022" y="324" width="12" height="12" fill="#1f2a44"/>
+<rect x="1022" y="464" width="12" height="12" fill="#c62828"/>
+<text x="1028" y="354" font-size="10" fill="#1f6b4f" text-anchor="middle" font-weight="700">OUT3</text>
+<text x="1028" y="456" font-size="10" fill="#c62828" text-anchor="middle" font-weight="700">VCC</text>
+<rect x="1058" y="324" width="12" height="12" fill="#1f2a44"/>
+<rect x="1058" y="464" width="12" height="12" fill="#2a9dc9"/>
+<text x="1064" y="354" font-size="10" fill="#1f6b4f" text-anchor="middle" font-weight="700">OUT4</text>
+<text x="1064" y="456" font-size="10" fill="#2a9dc9" text-anchor="middle" font-weight="700">IN2</text>
+<rect x="1094" y="324" width="12" height="12" fill="#9aa3b2"/>
+<rect x="1094" y="464" width="12" height="12" fill="#2f5fa8"/>
+<text x="1100" y="354" font-size="10" fill="#6b7689" text-anchor="middle" font-weight="700">ULT</text>
+<text x="1100" y="456" font-size="10" fill="#2f5fa8" text-anchor="middle" font-weight="700">IN1</text>
+<text x="1010" y="408" font-size="19" fill="#1f2a44" text-anchor="middle" font-weight="800">DRV8833</text>
+<text x="1132" y="345" font-size="12" fill="#6b7689" text-anchor="start" font-weight="400">ULT: no wire</text>
+<text x="1132" y="410" font-size="12" fill="#8a5a00" text-anchor="start" font-weight="700">J1 jumper on the label side:</text>
+<text x="1132" y="426" font-size="12" fill="#8a5a00" text-anchor="start" font-weight="700">leave it open (not bridged)</text>
+<rect x="140" y="850" width="676" height="200" rx="3" fill="#fff" stroke="#1f2a44" stroke-width="3.5"/>
+<rect x="112" y="920" width="56" height="60" rx="3" fill="#fff" stroke="#9aa3b2" stroke-width="2.5"/>
+<text x="140" y="955" font-size="13" fill="#6b7689" text-anchor="middle" font-weight="700">USB</text>
+<line x1="170" y1="842" x2="170" y2="850" stroke="#9aa3b2" stroke-width="2"/>
+<text x="170" y="875" font-size="12" fill="#9aa3b2" text-anchor="middle" font-weight="400">3V3</text>
+<rect x="164" y="1044" width="12" height="12" fill="#c62828"/>
+<text x="170" y="1035" font-size="13" fill="#1f2a44" text-anchor="middle" font-weight="800">Vin</text>
+<text x="170" y="1019" font-size="10" fill="#c62828" text-anchor="middle" font-weight="700">+5V</text>
+<line x1="214" y1="842" x2="214" y2="850" stroke="#9aa3b2" stroke-width="2"/>
+<text x="214" y="875" font-size="12" fill="#9aa3b2" text-anchor="middle" font-weight="400">GND</text>
+<rect x="208" y="1044" width="12" height="12" fill="#3d4a5c"/>
+<text x="214" y="1035" font-size="13" fill="#1f2a44" text-anchor="middle" font-weight="800">GND</text>
+<text x="214" y="1019" font-size="10" fill="#3d4a5c" text-anchor="middle" font-weight="700">GND</text>
+<line x1="258" y1="842" x2="258" y2="850" stroke="#9aa3b2" stroke-width="2"/>
+<text x="258" y="875" font-size="12" fill="#9aa3b2" text-anchor="middle" font-weight="400">TX</text>
+<line x1="258" y1="1050" x2="258" y2="1058" stroke="#9aa3b2" stroke-width="2"/>
+<text x="258" y="1035" font-size="12" fill="#9aa3b2" text-anchor="middle" font-weight="400">RST</text>
+<rect x="296" y="844" width="12" height="12" fill="#0f7b8a"/>
+<text x="302" y="875" font-size="13" fill="#1f2a44" text-anchor="middle" font-weight="800">RX</text>
+<text x="302" y="891" font-size="10" fill="#0f7b8a" text-anchor="middle" font-weight="700">SW S</text>
+<line x1="302" y1="1050" x2="302" y2="1058" stroke="#9aa3b2" stroke-width="2"/>
+<text x="302" y="1035" font-size="12" fill="#9aa3b2" text-anchor="middle" font-weight="400">EN</text>
+<rect x="340" y="844" width="12" height="12" fill="#8a5a00"/>
+<text x="346" y="875" font-size="13" fill="#1f2a44" text-anchor="middle" font-weight="800">IO15</text>
+<text x="346" y="891" font-size="10" fill="#8a5a00" text-anchor="middle" font-weight="700">EEP</text>
+<line x1="346" y1="1050" x2="346" y2="1058" stroke="#9aa3b2" stroke-width="2"/>
+<text x="346" y="1035" font-size="12" fill="#9aa3b2" text-anchor="middle" font-weight="400">3V3</text>
+<rect x="384" y="844" width="12" height="12" fill="#0f7b8a"/>
+<text x="390" y="875" font-size="13" fill="#1f2a44" text-anchor="middle" font-weight="800">IO13</text>
+<text x="390" y="891" font-size="10" fill="#0f7b8a" text-anchor="middle" font-weight="700">SW W</text>
+<line x1="390" y1="1050" x2="390" y2="1058" stroke="#9aa3b2" stroke-width="2"/>
+<text x="390" y="1035" font-size="12" fill="#9aa3b2" text-anchor="middle" font-weight="400">GND</text>
+<rect x="428" y="844" width="12" height="12" fill="#2f5fa8"/>
+<text x="434" y="875" font-size="13" fill="#1f2a44" text-anchor="middle" font-weight="800">IO12</text>
+<text x="434" y="891" font-size="10" fill="#2f5fa8" text-anchor="middle" font-weight="700">IN1</text>
+<line x1="434" y1="1050" x2="434" y2="1058" stroke="#9aa3b2" stroke-width="2"/>
+<text x="434" y="1035" font-size="12" fill="#9aa3b2" text-anchor="middle" font-weight="400">NC</text>
+<rect x="472" y="844" width="12" height="12" fill="#2a9dc9"/>
+<text x="478" y="875" font-size="13" fill="#1f2a44" text-anchor="middle" font-weight="800">IO14</text>
+<text x="478" y="891" font-size="10" fill="#2a9dc9" text-anchor="middle" font-weight="700">IN2</text>
+<line x1="478" y1="1050" x2="478" y2="1058" stroke="#9aa3b2" stroke-width="2"/>
+<text x="478" y="1035" font-size="12" fill="#9aa3b2" text-anchor="middle" font-weight="400">NC</text>
+<rect x="516" y="844" width="12" height="12" fill="#0f7b8a"/>
+<text x="522" y="875" font-size="13" fill="#1f2a44" text-anchor="middle" font-weight="800">GND</text>
+<text x="522" y="891" font-size="10" fill="#0f7b8a" text-anchor="middle" font-weight="700">lid</text>
+<line x1="522" y1="1050" x2="522" y2="1058" stroke="#9aa3b2" stroke-width="2"/>
+<text x="522" y="1035" font-size="12" fill="#9aa3b2" text-anchor="middle" font-weight="400">NC</text>
+<line x1="566" y1="842" x2="566" y2="850" stroke="#9aa3b2" stroke-width="2"/>
+<text x="566" y="875" font-size="12" fill="#9aa3b2" text-anchor="middle" font-weight="400">3V3</text>
+<line x1="566" y1="1050" x2="566" y2="1058" stroke="#9aa3b2" stroke-width="2"/>
+<text x="566" y="1035" font-size="12" fill="#9aa3b2" text-anchor="middle" font-weight="400">NC</text>
+<rect x="604" y="844" width="12" height="12" fill="#0f7b8a"/>
+<text x="610" y="875" font-size="13" fill="#1f2a44" text-anchor="middle" font-weight="800">IO2</text>
+<text x="610" y="891" font-size="10" fill="#0f7b8a" text-anchor="middle" font-weight="700">SW D</text>
+<line x1="610" y1="1050" x2="610" y2="1058" stroke="#9aa3b2" stroke-width="2"/>
+<text x="610" y="1035" font-size="12" fill="#9aa3b2" text-anchor="middle" font-weight="400">IO9</text>
+<rect x="648" y="844" width="12" height="12" fill="#0f7b8a"/>
+<text x="654" y="875" font-size="13" fill="#1f2a44" text-anchor="middle" font-weight="800">IO0</text>
+<text x="654" y="891" font-size="10" fill="#0f7b8a" text-anchor="middle" font-weight="700">SW A</text>
+<line x1="654" y1="1050" x2="654" y2="1058" stroke="#9aa3b2" stroke-width="2"/>
+<text x="654" y="1035" font-size="12" fill="#9aa3b2" text-anchor="middle" font-weight="400">IO10</text>
+<rect x="692" y="844" width="12" height="12" fill="#7b3fa0"/>
+<text x="698" y="875" font-size="13" fill="#1f2a44" text-anchor="middle" font-weight="800">IO4</text>
+<text x="698" y="891" font-size="10" fill="#7b3fa0" text-anchor="middle" font-weight="700">IN3</text>
+<line x1="698" y1="1050" x2="698" y2="1058" stroke="#9aa3b2" stroke-width="2"/>
+<text x="698" y="1035" font-size="12" fill="#9aa3b2" text-anchor="middle" font-weight="400">VBUS</text>
+<rect x="736" y="844" width="12" height="12" fill="#c2378a"/>
+<text x="742" y="875" font-size="13" fill="#1f2a44" text-anchor="middle" font-weight="800">IO5</text>
+<text x="742" y="891" font-size="10" fill="#c2378a" text-anchor="middle" font-weight="700">IN4</text>
+<line x1="742" y1="1050" x2="742" y2="1058" stroke="#9aa3b2" stroke-width="2"/>
+<text x="742" y="1035" font-size="12" fill="#9aa3b2" text-anchor="middle" font-weight="400">GND</text>
+<line x1="786" y1="842" x2="786" y2="850" stroke="#9aa3b2" stroke-width="2"/>
+<text x="786" y="875" font-size="12" fill="#9aa3b2" text-anchor="middle" font-weight="400">IO16</text>
+<line x1="786" y1="1050" x2="786" y2="1058" stroke="#9aa3b2" stroke-width="2"/>
+<text x="786" y="1035" font-size="12" fill="#9aa3b2" text-anchor="middle" font-weight="400">ADC</text>
+<text x="478" y="945" font-size="20" fill="#1f2a44" text-anchor="middle" font-weight="800">NODE MCU · ESP8266</text>
+<text x="478" y="970" font-size="13" fill="#6b7689" text-anchor="middle" font-weight="400">underside up (pins up), labels as printed on your board · USB end ← left wall, stays inside the case</text>
+<path d="M302,844 L302,828" fill="none" stroke="#0f7b8a" stroke-width="3" stroke-linejoin="round" stroke-linecap="round"/>
+<circle cx="302" cy="822" r="5" fill="#fff" stroke="#0f7b8a" stroke-width="2.5"/>
+<text x="306" y="812" font-size="11" fill="#0f7b8a" text-anchor="start" font-weight="700" transform="rotate(-90 306 812)">SW S</text>
+<path d="M390,844 L390,828" fill="none" stroke="#0f7b8a" stroke-width="3" stroke-linejoin="round" stroke-linecap="round"/>
+<circle cx="390" cy="822" r="5" fill="#fff" stroke="#0f7b8a" stroke-width="2.5"/>
+<text x="394" y="812" font-size="11" fill="#0f7b8a" text-anchor="start" font-weight="700" transform="rotate(-90 394 812)">SW W</text>
+<path d="M522,844 L522,828" fill="none" stroke="#0f7b8a" stroke-width="3" stroke-linejoin="round" stroke-linecap="round"/>
+<circle cx="522" cy="822" r="5" fill="#fff" stroke="#0f7b8a" stroke-width="2.5"/>
+<text x="526" y="812" font-size="11" fill="#0f7b8a" text-anchor="start" font-weight="700" transform="rotate(-90 526 812)">LID GND</text>
+<path d="M610,844 L610,828" fill="none" stroke="#0f7b8a" stroke-width="3" stroke-linejoin="round" stroke-linecap="round"/>
+<circle cx="610" cy="822" r="5" fill="#fff" stroke="#0f7b8a" stroke-width="2.5"/>
+<text x="614" y="812" font-size="11" fill="#0f7b8a" text-anchor="start" font-weight="700" transform="rotate(-90 614 812)">SW D</text>
+<path d="M654,844 L654,828" fill="none" stroke="#0f7b8a" stroke-width="3" stroke-linejoin="round" stroke-linecap="round"/>
+<circle cx="654" cy="822" r="5" fill="#fff" stroke="#0f7b8a" stroke-width="2.5"/>
+<text x="658" y="812" font-size="11" fill="#0f7b8a" text-anchor="start" font-weight="700" transform="rotate(-90 658 812)">SW A</text>
+<circle cx="350" cy="1305" r="9" fill="#fff" stroke="#3d4a5c" stroke-width="4"/>
+<circle cx="350" cy="1305" r="3.5" fill="#3d4a5c"/>
+<circle cx="350" cy="1385" r="9" fill="#fff" stroke="#c62828" stroke-width="4"/>
+<circle cx="350" cy="1385" r="3.5" fill="#c62828"/>
+<circle cx="550" cy="1315" r="9" fill="#fff" stroke="#d9730d" stroke-width="4"/>
+<circle cx="550" cy="1315" r="3.5" fill="#d9730d"/>
+<circle cx="550" cy="1375" r="9" fill="#fff" stroke="#111111" stroke-width="4"/>
+<circle cx="550" cy="1375" r="3.5" fill="#111111"/>
+<text x="366" y="1310" font-size="12" fill="#3d4a5c" text-anchor="start" font-weight="700">5V −</text>
+<text x="366" y="1390" font-size="12" fill="#c62828" text-anchor="start" font-weight="700">5V +</text>
+<text x="536" y="1320" font-size="12" fill="#d9730d" text-anchor="end" font-weight="700">B+</text>
+<text x="536" y="1380" font-size="12" fill="#111111" text-anchor="end" font-weight="700">B−</text>
+<rect x="438" y="1295" width="34" height="24" rx="4" fill="#3a3f47" stroke="#1f2a44" stroke-width="1.5"/>
+<text x="455" y="1311" font-size="10" fill="#e6e9ee" text-anchor="middle" font-weight="700">2R2</text>
+<text x="455" y="1338" font-size="15" fill="#1f2a44" text-anchor="middle" font-weight="800">LX-LBC3</text>
+<text x="455" y="1353" font-size="11" fill="#6b7689" text-anchor="middle" font-weight="400">charger with 5 V booster</text>
+<text x="455" y="1367" font-size="10" fill="#6b7689" text-anchor="middle" font-weight="400">sold as 'TP4056 Type-C'</text>
+<text x="256" y="1342" font-size="12" fill="#1f2a44" text-anchor="end" font-weight="700">USB-C: the one port</text>
+<text x="256" y="1358" font-size="12" fill="#1f2a44" text-anchor="end" font-weight="700">exposed on the case</text>
+<rect x="250" y="1580" width="670" height="140" rx="3" fill="#fff" stroke="#1f2a44" stroke-width="3.5"/>
+<rect x="286" y="1606" width="598" height="88" rx="20" fill="#f4f6f9" stroke="#1f2a44" stroke-width="2.5"/>
+<rect x="884" y="1632" width="14" height="36" rx="3" fill="#1f2a44"/>
+<text x="585" y="1646" font-size="20" fill="#1f2a44" text-anchor="middle" font-weight="800">18650 Li-ion · single cell · no BMS</text>
+<text x="585" y="1672" font-size="14" fill="#6b7689" text-anchor="middle" font-weight="400">3.7 V nominal · 4.2 V full · check polarity twice</text>
+<text x="852" y="1660" font-size="26" fill="#d9730d" text-anchor="middle" font-weight="800">+</text>
+<text x="318" y="1658" font-size="26" fill="#111111" text-anchor="middle" font-weight="800">−</text>
+<rect x="244" y="1644" width="12" height="12" fill="#111111"/>
+<rect x="914" y="1644" width="12" height="12" fill="#d9730d"/>
+<rect x="1200" y="1440" width="200" height="130" rx="3" fill="#fff" stroke="#1f2a44" stroke-width="3.5"/>
+<rect x="1294" y="1564" width="12" height="12" fill="#c62828"/>
+<rect x="1394" y="1499" width="12" height="12" fill="#c62828"/>
+<path d="M1300,1564 L1300,1546" fill="none" stroke="#1f2a44" stroke-width="2.5" stroke-linejoin="round" stroke-linecap="round"/>
+<path d="M1394,1505 L1378,1505" fill="none" stroke="#1f2a44" stroke-width="2.5" stroke-linejoin="round" stroke-linecap="round"/>
+<path d="M1372,1507 L1320,1550" fill="none" stroke="#1f2a44" stroke-width="4" stroke-linejoin="round" stroke-linecap="round"/>
+<circle cx="1300" cy="1540" r="5" fill="#fff" stroke="#1f2a44" stroke-width="2.5"/>
+<circle cx="1372" cy="1505" r="5" fill="#fff" stroke="#1f2a44" stroke-width="2.5"/>
+<text x="1212" y="1468" font-size="15" fill="#1f2a44" text-anchor="start" font-weight="800">POWER SW</text>
+<text x="1212" y="1487" font-size="12" fill="#6b7689" text-anchor="start" font-weight="400">on / off (3-pin slide:</text>
+<text x="1212" y="1502" font-size="12" fill="#6b7689" text-anchor="start" font-weight="400">middle + one end)</text>
+<text x="1452" y="1530" font-size="11" fill="#6b7689" text-anchor="start" font-weight="400">④ + ⑧ on the same pin</text>
+<rect x="1500" y="640" width="440" height="520" rx="3" fill="#f8f9fb" stroke="#1f2a44" stroke-width="2.5" stroke-dasharray="9 7"/>
+<text x="1522" y="676" font-size="17" fill="#1f2a44" text-anchor="start" font-weight="800">ON THE LID</text>
+<text x="1522" y="696" font-size="13" fill="#6b7689" text-anchor="start" font-weight="400">4× keyboard switch · wire to the tagged NodeMCU pins</text>
+<circle cx="1540" cy="760" r="6" fill="#fff" stroke="#0f7b8a" stroke-width="2.5"/>
+<text x="1554" y="750" font-size="13" fill="#0f7b8a" text-anchor="start" font-weight="700">SW A  →  IO0</text>
+<path d="M1547,760 L1660,760" fill="none" stroke="#0f7b8a" stroke-width="3.4" stroke-linejoin="round" stroke-linecap="round"/>
+<path d="M1740,760 L1800,760" fill="none" stroke="#3d4a5c" stroke-width="3.4" stroke-linejoin="round" stroke-linecap="round"/>
+<path d="M1662,760 L1736,734" fill="none" stroke="#0f7b8a" stroke-width="3.4" stroke-linejoin="round" stroke-linecap="round"/>
+<circle cx="1660" cy="760" r="6" fill="#0f7b8a"/>
+<circle cx="1740" cy="760" r="6" fill="#3d4a5c"/>
+<text x="1830" y="766" font-size="22" fill="#1f2a44" text-anchor="start" font-weight="800">A</text>
+<text x="1862" y="765" font-size="13" fill="#6b7689" text-anchor="start" font-weight="400">left</text>
+<circle cx="1800" cy="760" r="6" fill="#3d4a5c"/>
+<circle cx="1540" cy="838" r="6" fill="#fff" stroke="#0f7b8a" stroke-width="2.5"/>
+<text x="1554" y="828" font-size="13" fill="#0f7b8a" text-anchor="start" font-weight="700">SW D  →  IO2</text>
+<path d="M1547,838 L1660,838" fill="none" stroke="#0f7b8a" stroke-width="3.4" stroke-linejoin="round" stroke-linecap="round"/>
+<path d="M1740,838 L1800,838" fill="none" stroke="#3d4a5c" stroke-width="3.4" stroke-linejoin="round" stroke-linecap="round"/>
+<path d="M1662,838 L1736,812" fill="none" stroke="#0f7b8a" stroke-width="3.4" stroke-linejoin="round" stroke-linecap="round"/>
+<circle cx="1660" cy="838" r="6" fill="#0f7b8a"/>
+<circle cx="1740" cy="838" r="6" fill="#3d4a5c"/>
+<text x="1830" y="844" font-size="22" fill="#1f2a44" text-anchor="start" font-weight="800">D</text>
+<text x="1862" y="843" font-size="13" fill="#6b7689" text-anchor="start" font-weight="400">right</text>
+<circle cx="1800" cy="838" r="6" fill="#3d4a5c"/>
+<circle cx="1540" cy="916" r="6" fill="#fff" stroke="#0f7b8a" stroke-width="2.5"/>
+<text x="1554" y="906" font-size="13" fill="#0f7b8a" text-anchor="start" font-weight="700">SW W  →  IO13</text>
+<path d="M1547,916 L1660,916" fill="none" stroke="#0f7b8a" stroke-width="3.4" stroke-linejoin="round" stroke-linecap="round"/>
+<path d="M1740,916 L1800,916" fill="none" stroke="#3d4a5c" stroke-width="3.4" stroke-linejoin="round" stroke-linecap="round"/>
+<path d="M1662,916 L1736,890" fill="none" stroke="#0f7b8a" stroke-width="3.4" stroke-linejoin="round" stroke-linecap="round"/>
+<circle cx="1660" cy="916" r="6" fill="#0f7b8a"/>
+<circle cx="1740" cy="916" r="6" fill="#3d4a5c"/>
+<text x="1830" y="922" font-size="22" fill="#1f2a44" text-anchor="start" font-weight="800">W</text>
+<text x="1862" y="921" font-size="13" fill="#6b7689" text-anchor="start" font-weight="400">forward</text>
+<circle cx="1800" cy="916" r="6" fill="#3d4a5c"/>
+<circle cx="1540" cy="994" r="6" fill="#fff" stroke="#0f7b8a" stroke-width="2.5"/>
+<text x="1554" y="984" font-size="13" fill="#0f7b8a" text-anchor="start" font-weight="700">SW S  →  RX</text>
+<path d="M1547,994 L1660,994" fill="none" stroke="#0f7b8a" stroke-width="3.4" stroke-linejoin="round" stroke-linecap="round"/>
+<path d="M1740,994 L1800,994" fill="none" stroke="#3d4a5c" stroke-width="3.4" stroke-linejoin="round" stroke-linecap="round"/>
+<path d="M1662,994 L1736,968" fill="none" stroke="#0f7b8a" stroke-width="3.4" stroke-linejoin="round" stroke-linecap="round"/>
+<circle cx="1660" cy="994" r="6" fill="#0f7b8a"/>
+<circle cx="1740" cy="994" r="6" fill="#3d4a5c"/>
+<text x="1830" y="1000" font-size="22" fill="#1f2a44" text-anchor="start" font-weight="800">S</text>
+<text x="1862" y="999" font-size="13" fill="#6b7689" text-anchor="start" font-weight="400">back (optional)</text>
+<circle cx="1800" cy="994" r="6" fill="#3d4a5c"/>
+<text x="1522" y="1092" font-size="13" fill="#c62828" text-anchor="start" font-weight="700">Don't hold A or D at power-on:</text>
+<text x="1522" y="1110" font-size="13" fill="#c62828" text-anchor="start" font-weight="700">the board won't boot.</text>
+<path d="M1800,760 L1800,1060" fill="none" stroke="#3d4a5c" stroke-width="4" stroke-linejoin="round" stroke-linecap="round"/>
+<circle cx="1800" cy="1066" r="6" fill="#fff" stroke="#0f7b8a" stroke-width="2.5"/>
+<text x="1814" y="1071" font-size="13" fill="#0f7b8a" text-anchor="start" font-weight="700">LID GND</text>
+<rect x="1090" y="1010" width="250" height="90" rx="3" fill="#fff" stroke="#1f2a44" stroke-width="3.5"/>
+<rect x="1084" y="1049" width="12" height="12" fill="#3d4a5c"/>
+<rect x="1334" y="1049" width="12" height="12" fill="#c62828"/>
+<text x="1106" y="1061" font-size="18" fill="#3d4a5c" text-anchor="middle" font-weight="700">−</text>
+<text x="1324" y="1061" font-size="18" fill="#c62828" text-anchor="middle" font-weight="700">+</text>
+<text x="1215" y="1050" font-size="14" fill="#1f2a44" text-anchor="middle" font-weight="800">5V STATUS LED STRIP</text>
+<text x="1215" y="1070" font-size="12" fill="#6b7689" text-anchor="middle" font-weight="400">4× LED · on the case walls</text>
+<rect x="45" y="1830" width="610" height="345" rx="3" fill="#fff" stroke="#1f2a44" stroke-width="2.5"/>
+<line x1="45" y1="1868" x2="655" y2="1868" stroke="#1f2a44" stroke-width="2"/>
+<text x="65" y="1856" font-size="16" fill="#1f2a44" text-anchor="start" font-weight="800">POWER WIRES (thicker wire)</text>
+<text x="65" y="1894" font-size="14" fill="#1f2a44" text-anchor="start" font-weight="400">① Cell +  →  charger B+</text>
+<text x="65" y="1915" font-size="14" fill="#1f2a44" text-anchor="start" font-weight="400">② Cell −  →  charger B−</text>
+<text x="65" y="1936" font-size="14" fill="#1f2a44" text-anchor="start" font-weight="400">③ Charger 5V+  →  one switch pin</text>
+<text x="65" y="1957" font-size="14" fill="#1f2a44" text-anchor="start" font-weight="400">④ Other switch pin  →  DRV VCC</text>
+<text x="65" y="1978" font-size="14" fill="#1f2a44" text-anchor="start" font-weight="400">⑤ DRV VCC  →  NodeMCU Vin</text>
+<text x="65" y="1999" font-size="14" fill="#1f2a44" text-anchor="start" font-weight="400">⑥ Charger 5V−  →  DRV GND</text>
+<text x="65" y="2020" font-size="14" fill="#1f2a44" text-anchor="start" font-weight="400">⑦ DRV GND  →  NodeMCU GND (the one next to Vin)</text>
+<text x="65" y="2041" font-size="14" fill="#1f2a44" text-anchor="start" font-weight="400">⑧ LED strip +  →  the same switch pin as ④</text>
+<text x="65" y="2062" font-size="14" fill="#1f2a44" text-anchor="start" font-weight="400">⑨ LED strip −  →  DRV GND</text>
+<text x="65" y="2091" font-size="14" fill="#1f2a44" text-anchor="start" font-weight="800">Capacitors: legs only, no wires</text>
+<text x="65" y="2112" font-size="14" fill="#1f2a44" text-anchor="start" font-weight="400">1000 µF: + on DRV VCC, − on DRV GND. Solder ④–⑦, ⑨ to its legs.</text>
+<text x="65" y="2133" font-size="14" fill="#1f2a44" text-anchor="start" font-weight="400">100 µF: + on Vin, − on the GND pin next to it.</text>
+<text x="65" y="2154" font-size="14" fill="#1f2a44" text-anchor="start" font-weight="400">100 nF ×2: across the two terminals of each motor.</text>
+<rect x="675" y="1830" width="610" height="345" rx="3" fill="#fff" stroke="#1f2a44" stroke-width="2.5"/>
+<line x1="675" y1="1868" x2="1285" y2="1868" stroke="#1f2a44" stroke-width="2"/>
+<text x="695" y="1856" font-size="16" fill="#1f2a44" text-anchor="start" font-weight="800">SIGNAL, MOTOR AND LID WIRES (thin wire)</text>
+<text x="695" y="1894" font-size="14" fill="#1f2a44" text-anchor="start" font-weight="400">IO12 → IN1   ·   IO14 → IN2</text>
+<text x="695" y="1915" font-size="14" fill="#1f2a44" text-anchor="start" font-weight="400">IO4 → IN3   ·   IO5 → IN4</text>
+<text x="695" y="1936" font-size="14" fill="#1f2a44" text-anchor="start" font-weight="400">IO15 → EEP</text>
+<text x="695" y="1957" font-size="14" fill="#1f2a44" text-anchor="start" font-weight="400">Use a different wire colour for each: they cross on the way.</text>
+<text x="695" y="1986" font-size="14" fill="#1f2a44" text-anchor="start" font-weight="400">OUT1 → left motor +   ·   OUT2 → left motor −</text>
+<text x="695" y="2007" font-size="14" fill="#1f2a44" text-anchor="start" font-weight="400">OUT3 → right motor −   ·   OUT4 → right motor +</text>
+<text x="695" y="2036" font-size="14" fill="#1f2a44" text-anchor="start" font-weight="800">Lid bundle: 5 wires</text>
+<text x="695" y="2057" font-size="14" fill="#1f2a44" text-anchor="start" font-weight="400">IO0 → A   ·   IO2 → D   ·   IO13 → W   ·   RX → S</text>
+<text x="695" y="2078" font-size="14" fill="#1f2a44" text-anchor="start" font-weight="400">NodeMCU GND (between IO14 and 3V3) → all four switches.</text>
+<text x="695" y="2107" font-size="14" fill="#1f2a44" text-anchor="start" font-weight="400">The status LED strip is on the case walls, not the lid:</text>
+<text x="695" y="2128" font-size="14" fill="#1f2a44" text-anchor="start" font-weight="400">it is wires ⑧ and ⑨.</text>
+<rect x="1305" y="1830" width="650" height="345" rx="3" fill="#fff" stroke="#1f2a44" stroke-width="2.5"/>
+<line x1="1305" y1="1868" x2="1955" y2="1868" stroke="#1f2a44" stroke-width="2"/>
+<text x="1325" y="1856" font-size="16" fill="#1f2a44" text-anchor="start" font-weight="800">USE AND FIRST POWER-UP</text>
+<text x="1325" y="1894" font-size="14" fill="#1f2a44" text-anchor="start" font-weight="800">Plugging the charger in</text>
+<text x="1325" y="1915" font-size="14" fill="#1f2a44" text-anchor="start" font-weight="400">Switch OFF: the cell charges, the robot stays off. Safe.</text>
+<text x="1325" y="1936" font-size="14" fill="#1f2a44" text-anchor="start" font-weight="400">Switch ON: USB runs the robot and charges the cell. Safe;</text>
+<text x="1325" y="1957" font-size="14" fill="#1f2a44" text-anchor="start" font-weight="400">the ESP may reboot once as the cable goes in or out.</text>
+<text x="1325" y="1978" font-size="14" fill="#c62828" text-anchor="start" font-weight="700">Cable in the NodeMCU's inner USB: switch OFF first.</text>
+<text x="1325" y="2007" font-size="14" fill="#1f2a44" text-anchor="start" font-weight="800">Before closing the case</text>
+<text x="1325" y="2028" font-size="14" fill="#1f2a44" text-anchor="start" font-weight="400">1. Cell on B+ / B− (check polarity), plug USB in once, unplug:</text>
+<text x="1325" y="2049" font-size="14" fill="#1f2a44" text-anchor="start" font-weight="400">    about 5 V on the charger's 5V holes.</text>
+<text x="1325" y="2070" font-size="14" fill="#1f2a44" text-anchor="start" font-weight="400">2. Run both motors under load. The charger gives roughly</text>
+<text x="1325" y="2091" font-size="14" fill="#1f2a44" text-anchor="start" font-weight="400">    0.5 A continuous, 1 A peak.</text>
+<text x="1325" y="2112" font-size="14" fill="#1f2a44" text-anchor="start" font-weight="400">3. DRV8833 J1 jumper stays open.</text>
+<text x="1325" y="2133" font-size="14" fill="#1f2a44" text-anchor="start" font-weight="400">4. Go by the + / − printed on the charger, not the drawing.</text>
+<metadata><c2pa:manifest>AAAWgmp1bWIAAAAeanVtZGMycGEAEQAQgAAAqgA4m3EDYzJwYQAAABZcanVtYgAAAEdqdW1kYzJtYQARABCAAACqADibcQN1cm46YzJwYTpjNjQyYjcyZC00NmI3LTQzNTItOTBmMC05MGZiZWNjM2Q3ODcAAAADl2p1bWIAAAApanVtZGMyYXMAEQAQgAAAqgA4m3EDYzJwYS5hc3NlcnRpb25zAAAAALxqdW1iAAAARGp1bWRjYm9yABEAEIAAAKoAOJtxE2MycGEuaW5ncmVkaWVudC52MwAAAAAYYzJzaE0E1cPLu2lu3tBETCXYiHQAAABwY2JvcqNpZGM6Zm9ybWF0bWltYWdlL3N2Zyt4bWxqaW5zdGFuY2VJRHgseG1wOmlpZDo2NmY4YTI1Mi0zNWVjLTQ4M2UtOTg3OS1jZmQ4ZTRmNTgwYjNscmVsYXRpb25zaGlwaHBhcmVudE9mAAAB4mp1bWIAAABBanVtZGNib3IAEQAQgAAAqgA4m3ETYzJwYS5hY3Rpb25zLnYyAAAAABhjMnNo9rFCbJN4SUeCgaQy1/SNGgAAAZljYm9yomdhY3Rpb25zgqJmYWN0aW9ua2MycGEub3BlbmVkanBhcmFtZXRlcnOha2luZ3JlZGllbnRzgaJjdXJseC1zZWxmI2p1bWJmPWMycGEuYXNzZXJ0aW9ucy9jMnBhLmluZ3JlZGllbnQudjNkaGFzaFggnWXGaYWDpytm/cbd/GlC+345GLx8OpBjHvtEg6RrGWmkZmFjdGlvbngdY29tLmFudGhyb3BpYy5jbGF1ZGUucHJvdmlkZWRqcGFyYW1ldGVyc6F4H2NvbS5hbnRocm9waWMub3JpZ2luLWNvbmZpZGVuY2VndW5rbm93bmtkZXNjcmlwdGlvbnhmQ2xhdWRlIHByb3ZpZGVkIHRoaXMgZmlsZSBhdCB0aGUgcmVxdWVzdCBvZiBhIHVzZXIgYW5kIG1heSBoYXZlIGNyZWF0ZWQgb3IgbW9kaWZpZWQgdGhlIGZpbGUgY29udGVudHMubXNvZnR3YXJlQWdlbnShZG5hbWVmQ2xhdWRlcmFsbEFjdGlvbnNJbmNsdWRlZPUAAADIanVtYgAAAEBqdW1kY2JvcgARABCAAACqADibcRNjMnBhLmhhc2guZGF0YQAAAAAYYzJzaHJeWx4f2sbPEu7V6NBbadoAAACAY2JvcqVjYWxnZnNoYTI1NmNwYWRMAAAAAAAAAAAAAAAAZGhhc2hYID3Lee2hKuKz71Mefv29qz54qibFoptLXW+zdHwiqQQtZG5hbWVuanVtYmYgbWFuaWZlc3RqZXhjbHVzaW9uc4GiZXN0YXJ0GZvhZmxlbmd0aBkeBAAAAj5qdW1iAAAAJ2p1bWRjMmNsABEAEIAAAKoAOJtxA2MycGEuY2xhaW0udjIAAAACD2Nib3KlY2FsZ2ZzaGEyNTZpc2lnbmF0dXJleE1zZWxmI2p1bWJmPS9jMnBhL3VybjpjMnBhOmM2NDJiNzJkLTQ2YjctNDM1Mi05MGYwLTkwZmJlY2MzZDc4Ny9jMnBhLnNpZ25hdHVyZWppbnN0YW5jZUlEeCx4bXA6aWlkOjllNzVhNDUxLWY3NTctNDNhYy05Y2VhLWNjMzY2NzQ5NWMzYXJjcmVhdGVkX2Fzc2VydGlvbnODomN1cmx4LXNlbGYjanVtYmY9YzJwYS5hc3NlcnRpb25zL2MycGEuaW5ncmVkaWVudC52M2RoYXNoWCCdZcZphYOnK2b9xt38aUL7fjkYvHw6kGMe+0SDpGsZaaJjdXJseCpzZWxmI2p1bWJmPWMycGEuYXNzZXJ0aW9ucy9jMnBhLmFjdGlvbnMudjJkaGFzaFggOuGG6AVNYAlKG+G1FFkVzkyC7ZiiUHFkZP2RRYKK7xWiY3VybHgpc2VsZiNqdW1iZj1jMnBhLmFzc2VydGlvbnMvYzJwYS5oYXNoLmRhdGFkaGFzaFggXictheKr4dFlRElZrkvyyQAlHG7y57qhz/ckZKNv/710Y2xhaW1fZ2VuZXJhdG9yX2luZm+jZG5hbWVvQW50aHJvcGljIEZpbGVzZ3ZlcnNpb25lMS4wLjBrc3BlY1ZlcnNpb25lMi40LjAAABA4anVtYgAAAChqdW1kYzJjcwARABCAAACqADibcQNjMnBhLnNpZ25hdHVyZQAAABAIY2JvctKEWQISogEmGCFZAgowggIGMIIBjaADAgECAhRA5aAK7sI50L64g/oGQgU9Z1UTADAKBggqhkjOPQQDAzBJMRcwFQYDVQQKEw5BbnRocm9waWMsIFBCQzEuMCwGA1UEAxMlQW50aHJvcGljIENvbnRlbnQgQ3JlZGVudGlhbHMgUm9vdCBDQTAeFw0yNjA4MDcxODQzNTZaFw0yODA4MDYxOTQzNTZaMEQxFzAVBgNVBAoTDkFudGhyb3BpYywgUEJDMSkwJwYDVQQDEyBBbnRocm9waWMgQ2xhdWRlIENvbnRlbnQgU2lnbmluZzBZMBMGByqGSM49AgEGCCqGSM49AwEHA0IABJh6CmvLUBgFFNU0vUKlOVtE6djd17L5SuwX0LemFisBM3dkd/3cyjxFA3Qo5S46fX0/ihY0VZ7mfb9KF703t5OjWDBWMA4GA1UdDwEB/wQEAwIHgDAVBgNVHSUEDjAMBgorBgEEAYPoXgIBMAwGA1UdEwEB/wQCMAAwHwYDVR0jBBgwFoAUzlHiBIFOZFsj+OPEz5o+nMHXXMIwCgYIKoZIzj0EAwMDZwAwZAIwMXMdFJ4BetLLVY7ORuE9noqbbAZOZn/aArXyTwFAZfKrPzxF2vPoJNf1+UCdg1XGAjBwX1zd9WGqYkqmL5SFqw1QySjr1zJfpJM9+1rdDwSPLMOPOjKuiXjoU/pUUeG9RwmhY3BhZFkNngAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPZYQNRKry+Bm0NNcxFiC3cM/vyXkLZg0NpXN+G9kZZHfFedxos5J5IFW1NTS4b0NAypVqWO9w0IWoiVmjPIqwboFXU=</c2pa:manifest></metadata></svg>
